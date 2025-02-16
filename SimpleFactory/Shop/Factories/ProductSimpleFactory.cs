@@ -1,6 +1,7 @@
 ﻿using DesignPattern.Properties;
+using DesignPattern.SimpleFactory.Shop.Models;
 
-namespace DesignPattern.SimpleFactory.Shop
+namespace DesignPattern.SimpleFactory.Shop.Factories
 {
     public class ProductSimpleFactory
     {

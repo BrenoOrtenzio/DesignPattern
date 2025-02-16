@@ -1,7 +1,9 @@
 ﻿using DesignPattern.Properties;
+using DesignPattern.SimpleFactory.Shop.Factories;
+using DesignPattern.SimpleFactory.Shop.Models;
 using System.Reflection;
 
-namespace DesignPattern.SimpleFactory.Shop
+namespace DesignPattern.SimpleFactory.Shop.Services
 {
     public class Shop
     {

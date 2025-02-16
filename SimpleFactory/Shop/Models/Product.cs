@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.SimpleFactory.Shop
+﻿namespace DesignPattern.SimpleFactory.Shop.Models
 {
     public abstract class Product
     {
@@ -24,13 +24,13 @@
         public string AddItem(int quantity)
         {
             Quantity += quantity;
-            return $"Added {quantity} {this.Name}(s) to the cart";
+            return $"Added {quantity} {Name}(s) to the cart";
         }        
 
         public string Remove(int quantity)
         {
             Quantity -= quantity;
-            return $"Removed {quantity} {this.Name}(s) from the cart";
+            return $"Removed {quantity} {Name}(s) from the cart";
         }
 
         public decimal CalculateTotalItemPrice() => Quantity * Price;

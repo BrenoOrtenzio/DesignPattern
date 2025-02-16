@@ -1,6 +1,6 @@
 ﻿using System.Xml.Linq;
 
-namespace DesignPattern.SimpleFactory.Shop
+namespace DesignPattern.SimpleFactory.Shop.Models
 {
     class Cookie : Product
     {

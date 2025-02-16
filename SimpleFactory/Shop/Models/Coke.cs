@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.SimpleFactory.Shop
+﻿namespace DesignPattern.SimpleFactory.Shop.Models
 {
     public class Coke : Product
     {
